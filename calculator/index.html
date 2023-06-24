@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+        <div class="display">
+           <span></span>
+        </div>
+      <div class="buttons">
+        <div class="row add_pad">
+            <button class="low">C</button>
+            <button class="del"><i class="fa-solid fa-circle-xmark"></i></button>
+            <button class="divide" id="divide"><i class="fa-solid fa-divide"></i></button>
+        </div>
+        <div class="row add_pad">
+            <button>9</button>
+            <button>8</button>
+            <button>7</button>
+            <button class="multiplication" id="multiply"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="row add_pad">
+            <button>6</button>
+            <button>5</button>
+            <button>4</button>
+            <button class="plus" id="plus"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="row add_pad">
+            <button>3</button>
+            <button>2</button>
+            <button>1</button>
+            <button class="minus" id="minus"><i class="fa-solid fa-minus"></i></button>
+        </div>
+        <div class="row">
+            <button class="square"><i class="fa-solid fa-square-root-variable"></i></button>
+            <button>0</button>
+            <button>.</button>
+            <button class="equel" id="equel" type="submit"><i class="fa-solid fa-equals"></i></button>
+        </div>
+      </div>
+    </section>
+    <script src="./main.js"></script>
+  </body>
+</html>
